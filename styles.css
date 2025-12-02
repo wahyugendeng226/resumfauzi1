@@ -123,10 +123,33 @@ h1{ font-size:2.4rem; margin:0 0 8px 0; line-height:1.05; color:#fff; }
   backdrop-filter: blur(4px);
   border: 1px solid rgba(255,255,255,0.02);
 }
-.profile-img svg{ width:120px; height:120px; border-radius:12px; display:block; }
-.card-info h3{ margin:0 0 6px 0; font-size:1rem; color:white; }
-.card-info p{ margin:0 0 8px 0; color:var(--muted); font-size:0.95rem }
-.card-info .meta{ font-size:0.85rem; color:var(--muted); display:flex; gap:8px }
+.hero-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 30px;
+    }
+    
+    .profile-img {
+      margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      aspect-ratio: 1;
+    }
+    
+    .profile-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 3px solid var(--border);
+    }
+    
+    .profile-img svg {
+      width: 100%;
+      border-radius: 12px;
+    }
 
 /* Buttons */
 .btn{
