@@ -142,8 +142,8 @@ h1{ font-size:2.4rem; margin:0 0 8px 0; line-height:1.05; color:#fff; }
     }
     
     .profile-img img {
-      width: 200%;
-      height: 150%;
+      width: 80%;
+      height: 100%;
       object-fit: cover;
       border-radius: 12px;
       border: 2px solid rgba(255,122,24,0.2);
@@ -266,4 +266,5 @@ h1{ font-size:2.4rem; margin:0 0 8px 0; line-height:1.05; color:#fff; }
 
 /* Small niceties */
 a.link{ color:var(--accent2); text-decoration:none; font-weight:700 }
+
 .social{ display:inline-block; padding:8px 12px; border-radius:8px; background: linear-gradient(90deg, rgba(255,122,24,0.06), rgba(255,61,74,0.02)); color:var(--accent1); text-decoration:none; margin-right:8px }
